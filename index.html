@@ -48,6 +48,22 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+        <style>
+            .hero-bg {
+                display: none !important;
+            }
+
+            @media screen and (min-width: 992px) {
+                .hero-bg {
+                    display: inline !important;
+                }
+
+                .hero-bg-mobile {
+                    display: none !important;
+                }
+            }
+        </style>
     </head>
 
     <body class="index-page">
@@ -153,7 +169,13 @@
                     src="assets/img/hero-bg.jpg"
                     alt=""
                     data-aos="fade-in"
-                    class=""
+                    class="hero-bg"
+                />
+                <img
+                    src="assets/img/hero-bg-mobile.jpg"
+                    alt=""
+                    data-aos="fade-in"
+                    class="hero-bg-mobile"
                 />
 
                 <div class="container" data-aos="fade-up" data-aos-delay="100">
