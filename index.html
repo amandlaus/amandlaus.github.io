@@ -54,6 +54,14 @@
                 display: none !important;
             }
 
+            .preview-link {
+                left: 50% !important;
+            }
+
+            .details-link {
+                display: none;
+            }
+
             @media screen and (min-width: 992px) {
                 .hero-bg {
                     display: inline !important;
@@ -88,13 +96,17 @@
             </a>
 
             <div class="social-links text-center">
-                <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"
+                <a href="https://www.instagram.com/__armaan97__" target="_blank"
                     ><i class="bi bi-instagram"></i
                 ></a>
-                <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/amandlaus" target="_blank"
+                    ><i class="bi bi-github"></i
+                ></a>
+                <a
+                    href="https://in.linkedin.com/in/armaan-mandlaus-02aa782ab"
+                    target="_blank"
+                    ><i class="bi bi-linkedin"></i
+                ></a>
             </div>
 
             <nav id="navmenu" class="navmenu">
@@ -110,14 +122,21 @@
                         >
                     </li>
                     <li>
+                        <a href="#skills"
+                            ><i class="bi bi-file-earmark-text navicon"></i>
+                            Skills</a
+                        >
+                    </li>
+                    <li>
                         <a href="#resume"
                             ><i class="bi bi-file-earmark-text navicon"></i>
                             Resume</a
                         >
                     </li>
+
                     <li>
-                        <a href="#portfolio"
-                            ><i class="bi bi-images navicon"></i> Portfolio</a
+                        <a href="#showcase"
+                            ><i class="bi bi-images navicon"></i> Showcase</a
                         >
                     </li>
                     <li>
@@ -125,7 +144,7 @@
                             ><i class="bi bi-hdd-stack navicon"></i> Services</a
                         >
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown" style="display: none">
                         <a href="#"
                             ><i class="bi bi-menu-button navicon"></i>
                             <span>Dropdown</span>
@@ -153,7 +172,7 @@
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li style="display: none">
                         <a href="#contact"
                             ><i class="bi bi-envelope navicon"></i> Contact</a
                         >
@@ -301,16 +320,15 @@
                     <div class="row gy-4">
                         <div class="col-lg-3 col-md-6">
                             <div class="stats-item">
-                                <i class="bi bi-emoji-smile"></i>
+                                <i class="bi bi-globe"></i>
                                 <span
                                     data-purecounter-start="0"
-                                    data-purecounter-end="232"
+                                    data-purecounter-end="11"
                                     data-purecounter-duration="1"
                                     class="purecounter"
                                 ></span>
                                 <p>
-                                    <strong>Happy Clients</strong>
-                                    <span>consequuntur quae</span>
+                                    <strong>Frontend Technologies</strong>
                                 </p>
                             </div>
                         </div>
@@ -318,16 +336,15 @@
 
                         <div class="col-lg-3 col-md-6">
                             <div class="stats-item">
-                                <i class="bi bi-journal-richtext"></i>
+                                <i class="bi bi-database-gear"></i>
                                 <span
                                     data-purecounter-start="0"
-                                    data-purecounter-end="521"
+                                    data-purecounter-end="14"
                                     data-purecounter-duration="1"
                                     class="purecounter"
                                 ></span>
                                 <p>
-                                    <strong>Projects</strong>
-                                    <span>adipisci atque cum quia aut</span>
+                                    <strong>Backend Technologies</strong>
                                 </p>
                             </div>
                         </div>
@@ -335,16 +352,15 @@
 
                         <div class="col-lg-3 col-md-6">
                             <div class="stats-item">
-                                <i class="bi bi-headset"></i>
+                                <i class="bi bi-database"></i>
                                 <span
                                     data-purecounter-start="0"
-                                    data-purecounter-end="1453"
+                                    data-purecounter-end="2"
                                     data-purecounter-duration="1"
                                     class="purecounter"
                                 ></span>
                                 <p>
-                                    <strong>Hours Of Support</strong>
-                                    <span>aut commodi quaerat</span>
+                                    <strong>Databases</strong>
                                 </p>
                             </div>
                         </div>
@@ -352,16 +368,15 @@
 
                         <div class="col-lg-3 col-md-6">
                             <div class="stats-item">
-                                <i class="bi bi-people"></i>
+                                <i class="bi bi-laptop"></i>
                                 <span
                                     data-purecounter-start="0"
-                                    data-purecounter-end="32"
+                                    data-purecounter-end="4"
                                     data-purecounter-duration="1"
                                     class="purecounter"
                                 ></span>
                                 <p>
-                                    <strong>Hard Workers</strong>
-                                    <span>rerum asperiores dolor</span>
+                                    <strong>Operating Systems</strong>
                                 </p>
                             </div>
                         </div>
@@ -1178,86 +1193,84 @@
                         >
                             <h3 class="resume-title">Projects</h3>
                             <div class="resume-item">
-                                <h4>Professional Networking Application</h4>
+                                <h4>
+                                    Professional Social Networking Application
+                                </h4>
                                 <h5>2023 - Present</h5>
                                 <ul>
                                     <li>
-                                        Lead in the design, development, and
-                                        implementation of the graphic, layout,
-                                        and production communication materials
+                                        The professional social networking
+                                        application facilitates career
+                                        advancement through personalized
+                                        profiles, industry-specific networking
+                                        groups for seamless professional
+                                        connections and opportunities.
                                     </li>
                                     <li>
-                                        Delegate tasks to the 7 members of the
-                                        design team and provide counsel on all
-                                        aspects of the project.
-                                    </li>
-                                    <li>
-                                        Supervise the assessment of all graphic
-                                        materials in order to ensure quality and
-                                        accuracy of the design
-                                    </li>
-                                    <li>
-                                        Oversee the efficient use of production
-                                        project budgets ranging from $2,000 -
-                                        $25,000
+                                        Technologies used: HTML, CSS,
+                                        JavaScript, jQuery, Bootstrap 5.3, PHP
+                                        (Laravel 11) and MySQL 8
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="resume-item">
-                                <h4>Social Media Application</h4>
+                                <h4>Application for Collaborations</h4>
                                 <h5>2023 - Present</h5>
                                 <ul>
                                     <li>
-                                        Lead in the design, development, and
-                                        implementation of the graphic, layout,
-                                        and production communication materials
+                                        The collaboration application enables
+                                        users to connect with peers, share
+                                        resources, and coordinate projects
+                                        seamlessly, enhancing teamwork,
+                                        creativity, and productivity across
+                                        diverse professional fields.
                                     </li>
                                     <li>
-                                        Delegate tasks to the 7 members of the
-                                        design team and provide counsel on all
-                                        aspects of the project.
-                                    </li>
-                                    <li>
-                                        Supervise the assessment of all graphic
-                                        materials in order to ensure quality and
-                                        accuracy of the design
-                                    </li>
-                                    <li>
-                                        Oversee the efficient use of production
-                                        project budgets ranging from $2,000 -
-                                        $25,000
+                                        Technologies used: HTML, CSS,
+                                        JavaScript, jQuery, Bootstrap 5.3, PHP
+                                        (Laravel 11) and MySQL 8
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="resume-item">
-                                <h4>Go-chat Application</h4>
+                                <h4>Job Board (Under development)</h4>
                                 <h5>2023 - Present</h5>
-                                <p>
-                                    <em
-                                        >Stepping Stone Advertising, New York,
-                                        NY</em
-                                    >
-                                </p>
                                 <ul>
                                     <li>
-                                        Developed numerous marketing programs
-                                        (logos, brochures,infographics,
-                                        presentations, and advertisements).
+                                        The job board application aggregates job
+                                        listings across various industries,
+                                        providing users with streamlined job
+                                        search functionalities, personalized job
+                                        alerts, and tools for submitting
+                                        applications, facilitating efficient job
+                                        hunting and career advancement.
                                     </li>
                                     <li>
-                                        Managed up to 5 projects or tasks at a
-                                        given time while under pressure
+                                        Technologies used: React Native, Next.js
+                                        15, Shadcn/UI, Golang (Echo V4), Gorilla
+                                        Web Sockets (Golang) and PostgreSQL
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-item">
+                                <h4>Go-chat Application (under development)</h4>
+                                <h5>2023 - Present</h5>
+                                <ul>
+                                    <li>
+                                        The chat application enables real-time
+                                        communication through instant messaging,
+                                        voice calls, and video chats, fostering
+                                        seamless collaboration, connectivity,
+                                        and relationship-building among users
+                                        globally.
                                     </li>
                                     <li>
-                                        Recommended and consulted with clients
-                                        on the most appropriate graphic design
-                                    </li>
-                                    <li>
-                                        Created 4+ design presentations and
-                                        proposals a month for clients and
-                                        account managers
+                                        Technologies used: React Native, Golang
+                                        (Echo V4), Gorilla Web Sockets (Golang)
+                                        and PostgreSQL
                                     </li>
                                 </ul>
                             </div>
@@ -1268,21 +1281,15 @@
             </section>
             <!-- /Resume Section -->
 
-            <!-- Portfolio Section -->
-            <section
-                id="portfolio"
-                class="portfolio section"
-                style="display: none"
-            >
+            <!-- Showcase Section -->
+            <section id="showcase" class="portfolio section">
                 <!-- Section Title -->
                 <div class="container section-title" data-aos="fade-up">
-                    <h2>Portfolio</h2>
+                    <h2>Showcase</h2>
                     <p>
-                        Magnam dolores commodi suscipit. Necessitatibus eius
-                        consequatur ex aliquid fuga eum quidem. Sit sint
-                        consectetur velit. Quisquam quos quisquam cupiditate. Et
-                        nemo qui impedit suscipit alias ea. Quia fugiat sit in
-                        iste officiis commodi quidem hic quas.
+                        A curated collection highlighting my notable
+                        achievements and milestones, showcasing expertise and
+                        success across various endeavors.
                     </p>
                 </div>
                 <!-- End Section Title -->
@@ -1294,7 +1301,8 @@
                         data-layout="masonry"
                         data-sort="original-order"
                     >
-                        <ul
+                        <!--
+                   <ul
                             class="portfolio-filters isotope-filters"
                             data-aos="fade-up"
                             data-aos-delay="100"
@@ -1304,7 +1312,8 @@
                             <li data-filter=".filter-product">Product</li>
                             <li data-filter=".filter-branding">Branding</li>
                             <li data-filter=".filter-books">Books</li>
-                        </ul>
+                        </ul>     
+                -->
                         <!-- End Portfolio Filters -->
 
                         <div
@@ -1317,19 +1326,21 @@
                             >
                                 <div class="portfolio-content h-100">
                                     <img
-                                        src="assets/img/portfolio/app-1.jpg"
+                                        src="assets/img/showcase/1.jpg"
                                         class="img-fluid"
                                         alt=""
                                     />
                                     <div class="portfolio-info">
-                                        <h4>App 1</h4>
                                         <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
+                                            Awarded Mr. Fresher at Bosco
+                                            Technical Training Society (GGSIP
+                                            University, Delhi) in 2023,
+                                            showcasing talent and interpersonal
+                                            skills.
                                         </p>
                                         <a
-                                            href="assets/img/portfolio/app-1.jpg"
-                                            title="App 1"
+                                            href="assets/img/showcase/1.jpg"
+                                            title="Awarded Mr. Fresher at Bosco Technical Training Society (GGSIP University, Delhi) in 2023, showcasing talent and interpersonal skills."
                                             data-gallery="portfolio-gallery-app"
                                             class="glightbox preview-link"
                                             ><i class="bi bi-zoom-in"></i
@@ -1350,19 +1361,27 @@
                             >
                                 <div class="portfolio-content h-100">
                                     <img
-                                        src="assets/img/portfolio/product-1.jpg"
+                                        src="assets/img/showcase/2.jpg"
                                         class="img-fluid"
                                         alt=""
                                     />
                                     <div class="portfolio-info">
-                                        <h4>Product 1</h4>
                                         <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
+                                            Honored as Mr. Fresher of Bosco
+                                            Technical Training Society (GGSIP
+                                            University, Delhi) in 2023,
+                                            recognized for talent and
+                                            interpersonal skills.
                                         </p>
                                         <a
-                                            href="assets/img/portfolio/product-1.jpg"
-                                            title="Product 1"
+                                            href="assets/img/showcase/2.jpg"
+                                            title="
+                                            Honored as Mr. Fresher of Bosco
+                                            Technical Training Society (GGSIP
+                                            University, Delhi) in 2023,
+                                            recognized for talent and
+                                            interpersonal skills.
+                                            "
                                             data-gallery="portfolio-gallery-product"
                                             class="glightbox preview-link"
                                             ><i class="bi bi-zoom-in"></i
@@ -1383,19 +1402,27 @@
                             >
                                 <div class="portfolio-content h-100">
                                     <img
-                                        src="assets/img/portfolio/branding-1.jpg"
+                                        src="assets/img/showcase/3.jpg"
                                         class="img-fluid"
                                         alt=""
                                     />
                                     <div class="portfolio-info">
-                                        <h4>Branding 1</h4>
                                         <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
+                                            Honored as Mr. Fresher of Bosco
+                                            Technical Training Society (GGSIP
+                                            University, Delhi) in 2023,
+                                            recognized for talent and
+                                            interpersonal skills.
                                         </p>
                                         <a
-                                            href="assets/img/portfolio/branding-1.jpg"
-                                            title="Branding 1"
+                                            href="assets/img/showcase/3.jpg"
+                                            title="
+                                            Honored as Mr. Fresher of Bosco
+                                            Technical Training Society (GGSIP
+                                            University, Delhi) in 2023,
+                                            recognized for talent and
+                                            interpersonal skills.
+                                            "
                                             data-gallery="portfolio-gallery-branding"
                                             class="glightbox preview-link"
                                             ><i class="bi bi-zoom-in"></i
@@ -1416,19 +1443,23 @@
                             >
                                 <div class="portfolio-content h-100">
                                     <img
-                                        src="assets/img/portfolio/books-1.jpg"
+                                        src="assets/img/showcase/4.jpg"
                                         class="img-fluid"
                                         alt=""
                                     />
                                     <div class="portfolio-info">
-                                        <h4>Books 1</h4>
                                         <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
+                                            Anchoring the farewell event of my
+                                            senior batch at college, showcasing
+                                            adept hosting skills.
                                         </p>
                                         <a
-                                            href="assets/img/portfolio/books-1.jpg"
-                                            title="Branding 1"
+                                            href="assets/img/showcase/4.jpg"
+                                            title="
+                                            Anchoring the farewell event of my
+                                            senior batch at college, showcasing
+                                            adept hosting skills.
+                                            "
                                             data-gallery="portfolio-gallery-book"
                                             class="glightbox preview-link"
                                             ><i class="bi bi-zoom-in"></i
@@ -1442,125 +1473,32 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Portfolio Item -->
-
-                            <div
-                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-                            >
-                                <div class="portfolio-content h-100">
-                                    <img
-                                        src="assets/img/portfolio/app-2.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    />
-                                    <div class="portfolio-info">
-                                        <h4>App 2</h4>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
-                                        </p>
-                                        <a
-                                            href="assets/img/portfolio/app-2.jpg"
-                                            title="App 2"
-                                            data-gallery="portfolio-gallery-app"
-                                            class="glightbox preview-link"
-                                            ><i class="bi bi-zoom-in"></i
-                                        ></a>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            class="details-link"
-                                            ><i class="bi bi-link-45deg"></i
-                                        ></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Portfolio Item -->
-
-                            <div
-                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-                            >
-                                <div class="portfolio-content h-100">
-                                    <img
-                                        src="assets/img/portfolio/product-2.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    />
-                                    <div class="portfolio-info">
-                                        <h4>Product 2</h4>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
-                                        </p>
-                                        <a
-                                            href="assets/img/portfolio/product-2.jpg"
-                                            title="Product 2"
-                                            data-gallery="portfolio-gallery-product"
-                                            class="glightbox preview-link"
-                                            ><i class="bi bi-zoom-in"></i
-                                        ></a>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            class="details-link"
-                                            ><i class="bi bi-link-45deg"></i
-                                        ></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Portfolio Item -->
-
-                            <div
-                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-                            >
-                                <div class="portfolio-content h-100">
-                                    <img
-                                        src="assets/img/portfolio/branding-2.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    />
-                                    <div class="portfolio-info">
-                                        <h4>Branding 2</h4>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
-                                        </p>
-                                        <a
-                                            href="assets/img/portfolio/branding-2.jpg"
-                                            title="Branding 2"
-                                            data-gallery="portfolio-gallery-branding"
-                                            class="glightbox preview-link"
-                                            ><i class="bi bi-zoom-in"></i
-                                        ></a>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            class="details-link"
-                                            ><i class="bi bi-link-45deg"></i
-                                        ></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Portfolio Item -->
 
                             <div
                                 class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
                             >
                                 <div class="portfolio-content h-100">
                                     <img
-                                        src="assets/img/portfolio/books-2.jpg"
+                                        src="assets/img/showcase/5.jpg"
                                         class="img-fluid"
                                         alt=""
                                     />
                                     <div class="portfolio-info">
-                                        <h4>Books 2</h4>
                                         <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
+                                            Certificate of Scholar Badge from
+                                            Lotus Valley International School,
+                                            Noida, celebrating academic
+                                            excellence and commitment to
+                                            learning.
                                         </p>
                                         <a
-                                            href="assets/img/portfolio/books-2.jpg"
-                                            title="Branding 2"
+                                            href="assets/img/showcase/5.jpg"
+                                            title="
+                                            Certificate of Scholar Badge from
+                                            Lotus Valley International School,
+                                            Noida, celebrating academic
+                                            excellence and commitment to
+                                            learning."
                                             data-gallery="portfolio-gallery-book"
                                             class="glightbox preview-link"
                                             ><i class="bi bi-zoom-in"></i
@@ -1574,125 +1512,32 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Portfolio Item -->
-
-                            <div
-                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-                            >
-                                <div class="portfolio-content h-100">
-                                    <img
-                                        src="assets/img/portfolio/app-3.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    />
-                                    <div class="portfolio-info">
-                                        <h4>App 3</h4>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
-                                        </p>
-                                        <a
-                                            href="assets/img/portfolio/app-3.jpg"
-                                            title="App 3"
-                                            data-gallery="portfolio-gallery-app"
-                                            class="glightbox preview-link"
-                                            ><i class="bi bi-zoom-in"></i
-                                        ></a>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            class="details-link"
-                                            ><i class="bi bi-link-45deg"></i
-                                        ></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Portfolio Item -->
-
-                            <div
-                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-                            >
-                                <div class="portfolio-content h-100">
-                                    <img
-                                        src="assets/img/portfolio/product-3.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    />
-                                    <div class="portfolio-info">
-                                        <h4>Product 3</h4>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
-                                        </p>
-                                        <a
-                                            href="assets/img/portfolio/product-3.jpg"
-                                            title="Product 3"
-                                            data-gallery="portfolio-gallery-product"
-                                            class="glightbox preview-link"
-                                            ><i class="bi bi-zoom-in"></i
-                                        ></a>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            class="details-link"
-                                            ><i class="bi bi-link-45deg"></i
-                                        ></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Portfolio Item -->
-
-                            <div
-                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-                            >
-                                <div class="portfolio-content h-100">
-                                    <img
-                                        src="assets/img/portfolio/branding-3.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    />
-                                    <div class="portfolio-info">
-                                        <h4>Branding 3</h4>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
-                                        </p>
-                                        <a
-                                            href="assets/img/portfolio/branding-3.jpg"
-                                            title="Branding 2"
-                                            data-gallery="portfolio-gallery-branding"
-                                            class="glightbox preview-link"
-                                            ><i class="bi bi-zoom-in"></i
-                                        ></a>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            class="details-link"
-                                            ><i class="bi bi-link-45deg"></i
-                                        ></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Portfolio Item -->
 
                             <div
                                 class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
                             >
                                 <div class="portfolio-content h-100">
                                     <img
-                                        src="assets/img/portfolio/books-3.jpg"
+                                        src="assets/img/showcase/6.jpg"
                                         class="img-fluid"
                                         alt=""
                                     />
                                     <div class="portfolio-info">
-                                        <h4>Books 3</h4>
                                         <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur
+                                            Certificate of Proficiency in
+                                            Mandarin from Lotus Valley
+                                            International School, Noida,
+                                            demonstrating language proficiency
+                                            and cultural appreciation.
                                         </p>
                                         <a
-                                            href="assets/img/portfolio/books-3.jpg"
-                                            title="Branding 3"
+                                            href="assets/img/showcase/6.jpg"
+                                            title="
+                                            Certificate of Proficiency in
+                                            Mandarin from Lotus Valley
+                                            International School, Noida,
+                                            demonstrating language proficiency
+                                            and cultural appreciation."
                                             data-gallery="portfolio-gallery-book"
                                             class="glightbox preview-link"
                                             ><i class="bi bi-zoom-in"></i
@@ -1706,7 +1551,72 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Portfolio Item -->
+
+                            <div
+                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+                            >
+                                <div class="portfolio-content h-100">
+                                    <img
+                                        src="assets/img/showcase/7.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                    <div class="portfolio-info">
+                                        <p>
+                                            Receiving the Scholar Badge and
+                                            Mandarin Subject Topper awards on
+                                            stage at Lotus Valley International
+                                            School, Noida, celebrating academic
+                                            achievement and language
+                                            proficiency.
+                                        </p>
+                                        <a
+                                            href="assets/img/showcase/7.jpg"
+                                            title="Receiving the Scholar Badge and Mandarin Subject Topper awards on stage at Lotus Valley International School, Noida, celebrating academic achievement and language proficiency."
+                                            data-gallery="portfolio-gallery-book"
+                                            class="glightbox preview-link"
+                                            ><i class="bi bi-zoom-in"></i
+                                        ></a>
+                                        <a
+                                            href="portfolio-details.html"
+                                            title="More Details"
+                                            class="details-link"
+                                            ><i class="bi bi-link-45deg"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+                            >
+                                <div class="portfolio-content h-100">
+                                    <img
+                                        src="assets/img/showcase/8.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                    <div class="portfolio-info">
+                                        <p>
+                                            Attended the prestigious IIM Nagpur
+                                            Alumni Event 2024.
+                                        </p>
+                                        <a
+                                            href="assets/img/showcase/8.jpg"
+                                            title="Attended the prestigious IIM Nagpur Alumni Event 2024."
+                                            data-gallery="portfolio-gallery-book"
+                                            class="glightbox preview-link"
+                                            ><i class="bi bi-zoom-in"></i
+                                        ></a>
+                                        <a
+                                            href="portfolio-details.html"
+                                            title="More Details"
+                                            class="details-link"
+                                            ><i class="bi bi-link-45deg"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- End Portfolio Container -->
                     </div>
@@ -1887,7 +1797,11 @@
             <!-- /Services Section -->
 
             <!-- Testimonials Section -->
-            <section id="testimonials" class="testimonials section">
+            <section
+                id="testimonials"
+                class="testimonials section"
+                style="display: none"
+            >
                 <!-- Section Title -->
                 <div class="container section-title" data-aos="fade-up">
                     <h2>Testimonials</h2>
@@ -2076,8 +1990,11 @@
             </section>
             <!-- /Testimonials Section -->
 
+            <!-- Just a div to make the navigation work properly -->
+            <div style="height: 300px"></div>
+
             <!-- Contact Section -->
-            <section id="contact" class="contact section">
+            <section id="contact" class="contact section" style="display: none">
                 <!-- Section Title -->
                 <div class="container section-title" data-aos="fade-up">
                     <h2>Contact</h2>
@@ -2234,7 +2151,11 @@
             <!-- /Contact Section -->
         </main>
 
-        <footer id="footer" class="footer position-relative">
+        <footer
+            id="footer"
+            class="footer position-relative"
+            style="display: none"
+        >
             <div class="container">
                 <div class="copyright text-center">
                     <p>
@@ -2242,14 +2163,6 @@
                         <strong class="px-1 sitename">iPortfolio</strong>
                         <span>All Rights Reserved</span>
                     </p>
-                </div>
-                <div class="credits">
-                    <!-- All the links in the footer should remain intact. -->
-                    <!-- You can delete the links only if you've purchased the pro version. -->
-                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                    Designed by
-                    <a href="https://bootstrapmade.com/">BootstrapMade</a>
                 </div>
             </div>
         </footer>
